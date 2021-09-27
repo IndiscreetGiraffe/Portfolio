@@ -36,6 +36,7 @@ header nav ul li {
 
 header nav ul li a {
     margin: 0 20px;
+    font-size:larger;
 }
 
 header h2 {
@@ -49,15 +50,18 @@ section {
 .section-title {
     font-size:40px;
     display: inline;
-    border-right: 3px solid:
+    border-right: 10px solid;
+    margin: 15px;
 }
 
 .primary-border {
-    border-color:dodgerblue;
+    border-color: rgb(22, 22, 77);
+    border-spacing: 5px;
+    border-width: 3px;
 }
 
 .welcome {
-    background-image: url(./assets/images/nightsky.jpeg);
+    background-image: url("./assets/images/nightsky.jpeg");
     height: 150px;
     background-size: cover;
     background-position: center;
@@ -68,4 +72,21 @@ section {
     font-size: 30px;
     float: right;
     margin: 20px;
+}
+
+.intro p {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.contact a {
+    margin: 0 20px;
+    float: right;
+    font-size:larger;
+}
+
+.projects run-buddy {
+    background-image: url("./assets/images/hero-bg.jpeg");
+    height: 200px;
+    background-size: cover;
 }
