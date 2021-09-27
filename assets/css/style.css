@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color:dodgerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:lavender;
+}
+header {
+    color:lavender;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: dodgerblue;
+}
